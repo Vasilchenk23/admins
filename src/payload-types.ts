@@ -6,12 +6,7 @@
  * and re-run `payload generate:types` to regenerate this file.
  */
 
-/**
- * Supported timezones in IANA format.
- *
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "supportedTimezones".
- */
+
 export type SupportedTimezones =
   | 'Pacific/Midway'
   | 'Pacific/Niue'
